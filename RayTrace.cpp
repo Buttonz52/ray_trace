@@ -179,7 +179,7 @@ vec4 intersectTriangle(Ray r, Triangle tri, vec3 light, bool calcPong)
 	Plane p;
 	p.normal = normal;
 	p.position = tri.P0;
-
+//
 	//vec4 plane = intersectPlane(ray, p, light);
 
 	float para = dot(normal, r.direction);
